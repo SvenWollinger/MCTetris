@@ -5,6 +5,12 @@ A tetris clone, soon to be unique.
   - Play Tetris!
   - Thats all at the moment, sorry.
 
+### Controls
+  - A & D = Left & Right
+  - Q & E = Rotate
+  - S     = Faster
+  - Space = Drop
+
 ### Installation
 
 Simply download MCTetris.zip and extract it in a suitable location.
