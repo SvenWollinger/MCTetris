@@ -20,7 +20,7 @@ public class GamePanel extends JPanel{
 	public void paint(Graphics g) {
 		final int ts = game.getTileSize();
 		g.clearRect(0, 0, this.getWidth(), this.getHeight());
-		g.setColor(Color.GREEN);
+		g.setColor(Color.CYAN);
 		g.fillRect(0, 0, this.getWidth(), this.getHeight());
 		int offsetX = (this.getWidth()/2) - (game.BOARD_WIDTH * ts)/2;
 		g.setColor(Color.BLACK);

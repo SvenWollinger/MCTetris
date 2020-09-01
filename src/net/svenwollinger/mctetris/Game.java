@@ -27,7 +27,7 @@ public class Game extends JFrame{
 	public boolean isPaused = false;
 	
 	public Game() throws IOException {
-		this.setTitle("Tetris");
+		this.setTitle("MCTetris");
 		this.add(gamePanel);
 		this.addKeyListener(input);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
